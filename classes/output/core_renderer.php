@@ -111,6 +111,7 @@ class core_renderer extends \theme_boost\output\core_renderer {
         $header->searchurl = $_PAGE['searchurl'];
         $header->searchsettings = $_PAGE['searchsettings'];
         $header->sitename = $_PAGE['sitename'];
+        $header->shownavdrawer = $_PAGE['shownavdrawer'];
         $header->navdraweropen = $_PAGE['navdraweropen'];
         $header->showaccountsettings = $_PAGE['showaccountsettings'];
         $header->loggedin = $_PAGE['loggedin'];

@@ -61,6 +61,11 @@
             <div class="container">
                 <div class="row">
                     <section class="col-sm-7 col-xs-12">
+                        {{#shownavdrawer}}
+                            <div data-region="drawer-toggle" class="d-inline-block mr-3">
+                                <button aria-expanded="{{#navdraweropen}}true{{/navdraweropen}}{{^navdraweropen}}false{{/navdraweropen}}" aria-controls="nav-drawer" type="button" class="btn mr-1 mb-3 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">{{#pix}}i/menubars{{/pix}}<span class="sr-only">{{#str}}sidepanel, core{{/str}}</span></button>
+                            </div>
+                        {{/shownavdrawer}}
                         <h2 class="wb-inv">{{{ sitename }}}</h2>
                        <a class="app-name" href="{{{ wwwroot }}}">{{{ sitename }}}</a>
                     </section>

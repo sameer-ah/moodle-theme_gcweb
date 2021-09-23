@@ -18,5 +18,8 @@
     @template theme_gcweb/nav-drawer
 }}
 <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex {{^navdraweropen}}closed{{/navdraweropen}}" aria-hidden="{{#navdraweropen}}false{{/navdraweropen}}{{^navdraweropen}}true{{/navdraweropen}}" tabindex="-1">
+    <div data-region="drawer-toggle" class="icon-size-5 nav-drawer-chevron-button" aria-expanded="{{#navdraweropen}}true{{/navdraweropen}}{{^navdraweropen}}false{{/navdraweropen}}" aria-controls="nav-drawer" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">
+        <i class="icon fa fa-angle-double-left"></i>    
+    </div>
     {{> theme_boost/flat_navigation }}
 </div>

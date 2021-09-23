@@ -1643,3 +1643,13 @@ body.path-mod-feedback div.feedback-item-label span.d-inline-block {
     height: 2.7rem;
     font-size: 1.4rem
 }
+
+.nav-drawer-chevron-button{
+    top:0; 
+    left:250px;
+    position: absolute;
+}
+
+.nav-drawer-chevron-button:hover{
+    cursor: pointer;
+}
