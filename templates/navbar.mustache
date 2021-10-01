@@ -20,10 +20,5 @@
     This template renders the top navbar.
 }}
                     <div id="navbar" class="context-header-settings-menu">
-                        {{{ output.settings_menu }}} {{{ pagebutton }}}
-                        {{#shownavdrawer}}
-                        <div data-region="drawer-toggle" class="d-inline-block mr-3">
-                            <button aria-expanded="{{#navdraweropen}}true{{/navdraweropen}}{{^navdraweropen}}false{{/navdraweropen}}" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-right mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">{{#pix}}i/menubars{{/pix}}<span class="sr-only">{{#str}}sidepanel, core{{/str}}</span></button>
-                        </div>
-                        {{/shownavdrawer}}
+                        {{{ output.settings_menu }}} {{{ pagebutton }}}                        
                     </div>

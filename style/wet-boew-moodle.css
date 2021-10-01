@@ -1643,3 +1643,19 @@ body.path-mod-feedback div.feedback-item-label span.d-inline-block {
     height: 2.7rem;
     font-size: 1.4rem
 }
+
+.header-fixed-part{
+    top:0;
+    left:0;
+    position:fixed;
+    background-color:#fff;
+    z-index:1000;
+}
+
+.header-non-fixed-part{
+    margin-top:160px;
+}
+
+.nav-drawer-with-fixed-header{
+    top:160px;
+}
